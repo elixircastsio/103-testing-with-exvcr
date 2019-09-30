@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.coincap.io/v2/assets/elixircoin"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"error\":\"elixircoin not found\",\"timestamp\":1569805322606}",
+      "headers": {
+        "Date": "Mon, 30 Sep 2019 01:02:02 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "58",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=dd898f3550cec2807a81612c9d206f2731569805322; expires=Tue, 29-Sep-20 01:02:02 GMT; path=/; domain=.coincap.io; HttpOnly",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "180",
+        "X-RateLimit-Remaining": "179",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Accept-Encoding",
+        "ETag": "W/\"3a-QJmrdqpb2B4UNjbwjPFODBh3Ivg\"",
+        "Vary": "Accept-Encoding",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Server": "cloudflare",
+        "CF-RAY": "51e244defba6a032-SLC"
+      },
+      "status_code": 404,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.coincap.io/v2/assets/bitcoin"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"data\":{\"id\":\"bitcoin\",\"rank\":\"1\",\"symbol\":\"BTC\",\"name\":\"Bitcoin\",\"supply\":\"17964875.0000000000000000\",\"maxSupply\":\"21000000.0000000000000000\",\"marketCapUsd\":\"145090810241.1742298050669000\",\"volumeUsd24Hr\":\"3831302940.3492886439801342\",\"priceUsd\":\"8076.3606894662072408\",\"changePercent24Hr\":\"-2.2184830033825396\",\"vwap24Hr\":\"8112.5781820906650477\"},\"timestamp\":1569805323158}",
+      "headers": {
+        "Date": "Mon, 30 Sep 2019 01:02:03 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "376",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=dcb9c27b405d31dfa50cececa1fec1b4b1569805323; expires=Tue, 29-Sep-20 01:02:03 GMT; path=/; domain=.coincap.io; HttpOnly",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "180",
+        "X-RateLimit-Remaining": "178",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Accept-Encoding",
+        "ETag": "W/\"178-60pnxEqvBJMpbCX7+vzOhVTVZXI\"",
+        "Vary": "Accept-Encoding",
+        "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "Server": "cloudflare",
+        "CF-RAY": "51e244e54f9fa032-SLC"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
